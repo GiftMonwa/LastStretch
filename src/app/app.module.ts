@@ -15,12 +15,14 @@ import { DashBoardComponent } from './dash-board/dash-board.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavigationComponent,
-    DashBoardComponent
+    DashBoardComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
