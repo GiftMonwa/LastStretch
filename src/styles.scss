@@ -35,7 +35,7 @@ $last-stretch-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 //html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+body { margin: 0; font-family: 'Martel' Roboto, "Helvetica Neue", sans-serif;
   background-image: url(./assets/senImages/WoodenBackground.png);
   background-repeat: no-repeat;
 
@@ -46,8 +46,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
   background-size: cover;
   display: flex;
   align-items: center;
+}
 
-  font-family: 'Indie Flower', cursive;
+h1 {
+  font-family: 'indie flower', serif;
 }
 
 .Container{
