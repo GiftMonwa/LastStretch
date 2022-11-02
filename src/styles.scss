@@ -38,12 +38,12 @@ $last-stretch-theme: mat.define-light-theme((
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
   background-image: url(./assets/senImages/WoodenBackground.png);
   background-repeat: no-repeat;
- 
-  max-width: 600px;
+
+  max-width: 100%;
   max-height: 100%;
   min-width: 100%;
   min-height: 600px;
-  
+  background-size: cover;
   display: flex;
   align-items: center;
 }
@@ -72,7 +72,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .Page9Col1{
-    
+
     max-height: 100%;
     max-width: 50%;
     min-height:100%;
@@ -122,7 +122,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
     max-width: 20%;
     min-height:100%;
     min-width: 20%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
     max-width: 50%;
     min-height:100%;
     min-width: 50%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,13 +145,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .mainImageContainerDescription4 {
-  -ms-overflow-style: none;  
-  scrollbar-width: none; 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 body {
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
@@ -163,7 +163,7 @@ body::-webkit-scrollbar {
     max-width: 50%;
     min-height:100%;
     min-width: 50%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,7 +211,7 @@ body::-webkit-scrollbar {
     max-width: 20%;
     min-height:100%;
     min-width: 20%;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -293,9 +293,9 @@ body::-webkit-scrollbar {
 
 .mainImageContainerDescription1{
     box-sizing: border-box;
-    
+
     width: 350px;
-    
+
     left: 170px;
     bottom: 10px;
 
@@ -304,9 +304,9 @@ body::-webkit-scrollbar {
 
 .Page4mainImageContainerDescription1{
     box-sizing: border-box;
-    
+
     width: 350px;
-    
+
     bottom: 15px;
 
     background: url(./assets/senImages/mainImageContainerDescription.png);
@@ -332,7 +332,7 @@ body::-webkit-scrollbar {
 
     width: 250px;
     height: 150px;
-   
+
     margin: 10px 10px;
 
     background: #D9D9D9;
@@ -347,7 +347,7 @@ body::-webkit-scrollbar {
 
     width: 250px;
     height: 150px;
-    
+
     margin: 10px 0px;
 
     background: #D9D9D9;
@@ -366,13 +366,13 @@ body::-webkit-scrollbar {
     margin: 10px 10px;
 
     background-image: url(./assets/senImages/RoughBackground.png);
-    
+
     background: #D9D9D9;
     border-width: 8px 8px 8px 8px;
     border-style: solid;
     border-color: #A3866A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
+
     left: 100px;
 }
 
@@ -381,7 +381,7 @@ body::-webkit-scrollbar {
 
     width: 250px;
     height: 150px;
-   
+
     margin: 10px 10px;
 
     background: #D9D9D9;
@@ -398,7 +398,7 @@ body::-webkit-scrollbar {
 
     width: 250px;
     height: 150px;
-    
+
     margin: 10px 10px;
 
     background: #D9D9D9;
@@ -445,7 +445,7 @@ body::-webkit-scrollbar {
 
     margin: 15px 0px;
     margin-left: 100px;
-    z-index: 4; 
+    z-index: 4;
 }
 
 .rectanglarCluster3Page5{
@@ -462,7 +462,7 @@ body::-webkit-scrollbar {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     margin: 15px 0px;
-    z-index: 4; 
+    z-index: 4;
 }
 
 .rectanglarCluster4Page5{
@@ -478,7 +478,7 @@ body::-webkit-scrollbar {
     border-color: #A3866A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    z-index: 4; 
+    z-index: 4;
     margin: 15px 0px;
 }
 
@@ -589,7 +589,7 @@ body::-webkit-scrollbar {
     margin: 15px 0px;
     margin-left: 100px;
 
-    left: 40px;    
+    left: 40px;
 }
 
 
