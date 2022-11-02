@@ -47,9 +47,9 @@
   display: flex;
   margin-left: auto;
   //margin-right: auto;
-  height: 94%;
+  height: 98%;
   //background-color: #B73C3C;
-  width:46%;
+  width:50%;
 }
 .ClosedBook
 {
@@ -77,29 +77,31 @@
   margin-bottom: auto;
 }
 
-.Tab1Container,.Tab2Container,.Tab3Container
+.TabContainer
 {
   width:100%;
   height: 30%;
   //background-color: aqua;
   position: relative;
   animation: bounceIn;
-  animation-duration: 2s;
+  animation-duration: 5s;
 
   &:hover{
-    .Icon1,.Icon2,.Icon3
+    .Icon
     {
       right: 0%;
     }
-    .Tab1,.Tab2,.Tab3
+    .Tab
     {
       display: flex;
     }
+
+    @include mat-elevation(5);
   }
 
 }
 
-.Tab1,.Tab2,.Tab3
+.Tab
 {
   width: 80%;
   height: 100%;
@@ -114,7 +116,7 @@
   display: none;
 }
 
-.Icon1 , .Icon2 ,.Icon3
+.Icon
 {
   position: absolute;
   float: right;
