@@ -12,9 +12,9 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onClick()
+  /*onHover()
   {
-
-  }
+    const element=document.getElementsByClassName('')
+  }*/
 
 }
