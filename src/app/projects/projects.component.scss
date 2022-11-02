@@ -1,37 +1,9 @@
+@import '@angular/material/theming';
 
-.MainContainer
+.ProjectItem
 {
-  position: absolute;
-  width: 90%;
-  height: 85%;
-  margin-top: 3%;
-  margin-bottom: auto;
-  background-image: url('../../assets/senImages/wide-book 1.png');
-  display: flex;
-  justify-content: center;
-  //background-color: aqua;
-}
-
-.Tab
-{
-  width: 10%;
-  height: 8%;
-  position: absolute;
-
-  font-family: 'Indie Flower';
-  font-size: 25px;
-  color: #ffff;
-  justify-content: center;
-  align-items: center;
-}
-
-.CardContainer
-{
-  display: flex;
-
-}
-.ProjectCard
-{
-  width: 30%;
-  height:20%;
+  @include mat-elevation(5);
+  &:hover{
+    @include mat-elevation(15);
+  }
 }
