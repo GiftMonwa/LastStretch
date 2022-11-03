@@ -21,6 +21,7 @@ import { Page8Component } from './page8/page8.component';
 import { Page9Component } from './page9/page9.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AboutComponent } from './about/about.component';
     Page8Component,
     Page9Component,
     ProjectsComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
