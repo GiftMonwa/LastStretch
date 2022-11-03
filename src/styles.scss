@@ -2,6 +2,7 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @use '@angular/material' as mat;
+@import '@angular/material/theming';
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -47,6 +48,17 @@ body { margin: 0; font-family: 'Martel' Roboto, "Helvetica Neue", sans-serif;
   background-size: 100% 100%;
   //display: flex;
   //align-items: center;
+}
+
+.HomeTab
+{
+  width:fit-content;
+  height: fit-content;
+  @include mat-elevation(3);
+  &:hover
+  {
+    @include mat-elevation(16);
+  }
 }
 
 h1 {

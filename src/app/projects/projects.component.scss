@@ -1,5 +1,36 @@
 @import '@angular/material/theming';
 
+
+.ProjectContainer
+{
+  position: relative;
+}
+h1{
+
+  position: absolute;
+
+  font-family: 'Indie Flower';
+  font-size: 30px;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+p
+{
+  position: absolute;
+
+  font-family: 'Martel';
+  font-size: 18px;
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
 .ProjectItem
 {
   @include mat-elevation(5);
@@ -7,3 +38,5 @@
     @include mat-elevation(15);
   }
 }
+
+
